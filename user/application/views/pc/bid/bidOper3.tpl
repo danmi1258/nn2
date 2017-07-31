@@ -3,7 +3,7 @@
 <script type="text/javascript" src="{root:js/upload/docUpload.js}"></script>
 <!--start中间内容-->
             <style type="text/css">
-                
+
             </style>
 			<div class="user_c">
 				<div class="user_zhxi">
@@ -27,25 +27,25 @@
                                                                         <span class="on">资格预审</span>
                                                                     </p>
                                                                 </li>
-                                                                <li class="bid_step">                                                                    
+                                                                <li class="bid_step">
                                                                     <span class="val_on on">2</span>
                                                                     <p class="step_name">
                                                                         <span class="on">购买下载标书</span>
                                                                     </p>
                                                                 </li>
-                                                                <li class="bid_step">                                                                    
+                                                                <li class="bid_step">
                                                                     <span class="val_on on">3</span>
                                                                     <p class="step_name">
                                                                         <span class="on">投标</span>
                                                                     </p>
                                                                 </li>
-                                                                <li class="bid_step">                                                                    
+                                                                <li class="bid_step">
                                                                     <span class="val_on ">4</span>
                                                                     <p class="step_name">
                                                                         <span class="">开标</span>
                                                                     </p>
                                                                 </li>
-                                                                <li class="bid_step">                                                                    
+                                                                <li class="bid_step">
                                                                     <span class="val_on ">5</span>
                                                                     <p class="step_name">
                                                                         <span class="">中标结果</span>
@@ -62,7 +62,7 @@
                                                                     <!-- <p class="zigefile"><span>招标编号：</span>ZB20150827B002</p>
                                                                     <p class="zigefile"><span>项目名称：</span>501矿</p>
                                                                     <p class="zigefile"><span>标书费用：</span><i>100.00</i> 元</p> -->
-                                                                                                                                        
+
                                                                 </div>
                                                             </div>
 
@@ -84,7 +84,8 @@
                                                                     {if:$reply['bid_doc']==''}
                                                                     <p class="zigefile">
                                                                         <span>投&nbsp;&nbsp;标&nbsp;&nbsp;书：</span>
-                                                                        <input type="file" class="doc" id="1" name="doc" onchange="javascript:uploadDoc(this,'{url:/bid/ajaxUploadDoc}');" accept="application/msword" style="height: 30px;"><i>*</i><span>只允许上传.doc文件</span></p>
+                                                                        <input type="file" class="doc" id="1" name="doc" onchange="javascript:uploadDoc(this,'{url:/bid/ajaxUploadDoc}');" accept="application/pdf" style="height: 30px;"><i>*</i><span>只允许上传.pdf文件</span></p>
+                                                                        <!-- application/msword -->
                                                                     <p class="zigefile" style="color:#e00101;"></p>
                                                                     {else:}
                                                                     <p class="zigefile">
@@ -224,4 +225,4 @@
 				</div>
 			</div>
 
-			<!--end中间内容-->	
+			<!--end中间内容-->
